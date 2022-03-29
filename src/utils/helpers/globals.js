@@ -1,0 +1,1 @@
+globalThis.validateIndex = (i, m = 10) => isNaN(i)||Number(i)<0||Number(i)>m;
